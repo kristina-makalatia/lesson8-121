@@ -1,0 +1,63 @@
+/* width - example #1 */
+/* @media (max-width:1000px) {
+    .child {
+        width:100px;
+        height: 100px;
+    }
+}
+
+@media (max-width:480px) {
+    .child:nth-child(4)  {
+        display: none;
+    }
+} */
+
+/* flex-direction example#2 */
+/* @media (max-width: 1024px) {
+    .wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .child {
+        margin-bottom: 30px;
+    }
+} */
+
+/* flex-wrap exampe#3 */
+/* @media (max-width: 1024px) {
+    .wraper {
+        flex-wrap: wrap;
+    }
+} */
+/* @media (max-width: 500px) {
+    .wraper {
+        justify-content: center;
+    }
+    .child {
+        margin-bottom: 30px;
+    }
+} */
+
+
+/* % - example#4 */
+@media (max-width: 1000px) {
+    .child {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .child {
+        width: 100%;
+    }
+}
+
+/* header responsive */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
